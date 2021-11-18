@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="JS.js"></script>
   <title>Login And Registration Form</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/button.css">
+  <script src="JS.js"></script>
 </head>
 <body>
     <div class="hero">
       <div class="mainlogo">
-        <img src="logo.png">
+        <img src="Pictures/logo.PNG">
       </div>
         <div class="form-box">
           <div class="button-box">
@@ -19,8 +22,8 @@
               <button type="button" class="toggle-btn" onclick="register()">Register</button>
           </div>
           <div class="social-icons">
-            <img src="fb.png">
-            <img src="gmail.png">
+            <img src="Pictures/fb.png">
+            <img src="Pictures/gmail.png">
           </div>
           <form id="login" class="input-group">
             <input type="text" class="input-field" placeholder="User Id" required>
@@ -36,9 +39,7 @@
             <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
             <button type="submit" class="submit-btn">Register</button>
           </form>
-        </div>
     </div>
-    
     <script>
       var x = document.getElementById("login");
       var y = document.getElementById("register");
@@ -55,5 +56,14 @@
         z.style.left ="0";
       }
     </script>
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>Terms and Conditions</h1>
+      </div>
+    </div>
+    <button onclick="togglePopup()">Terms and Conditions</button>
+  </div>
 </body>
 </html>
