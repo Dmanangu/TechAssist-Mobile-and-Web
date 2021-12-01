@@ -1,0 +1,70 @@
+.menu-bars{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 6vh;
+    width: 95vw;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.client-btn{
+    margin-right: 60px;
+    float: right;
+    border:transparent;
+    color:white;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 14px;
+}
+.client-btn:hover {
+    
+    background-color:#78cecb;
+    box-shadow: 2px 2px 5px black;
+}
+.worker-btn{
+    margin-right: 60px;
+    float: right;
+    border:transparent;
+    color:white;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 14px;
+    
+}
+.worker-btn:hover {
+    background-color:#78cecb;
+    box-shadow: 2px 2px 5px black;
+}
+.payment-btn{
+    margin-right: 60px;
+    float: right;
+    border:transparent;
+    color:white;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 14px;
+}
+.payment-btn:hover {
+    background-color:#78cecb;
+    box-shadow: 2px 2px 5px black;
+}
+.support-btn{
+    margin-right: 60px;
+    float: right;
+    border:transparent;
+    color:white;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 14px;
+}
+.support-btn:hover {
+    background-color:#78cecb;
+    box-shadow: 2px 2px 5px black;
+}

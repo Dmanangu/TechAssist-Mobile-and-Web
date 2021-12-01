@@ -1,0 +1,52 @@
+.body-container{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 95vw;
+    height: 80vh;
+    border-radius: 30px;
+    border-style: solid;
+    margin-left: 20px;
+}
+.word{
+    margin-top: 10%;
+    margin-left: 25%;
+    font-size: 200px;
+    position: absolute;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+.payment-container{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: min-content;
+    height: 80vh;
+    border-radius: 40px;
+}
+
+.history-btn{
+    margin-top:90px;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.withdrawal-btn{
+    margin-top: 90px;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 30px;
+}
+
+.cpay-btn{
+    margin-top: 90px;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 40px;
+    border-radius: 30px;
+}

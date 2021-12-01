@@ -1,0 +1,72 @@
+.supportbody-container{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 95vw;
+    height: 80vh;
+    border-radius: 30px;
+    border-style: solid;
+    margin-left: 20px;
+}
+.supportword{
+    margin-top: 10%;
+    margin-left: 25%;
+    font-size: 200px;
+    position: absolute;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+.support-container{
+    background-color: rgba(239,226,226,.8);
+    width: 30%;
+    height: 70vh;
+    margin-left: 65%;
+    margin-bottom: 20%;
+}
+.settings-word{
+    margin-left: 20%;
+    font-size: 70px;
+}
+
+
+.accsett-btn{
+    border:transparent;
+    color:black;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 14px;
+    margin-left: 10%;
+}
+.delete-btn{
+    border:transparent;
+    color:black;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 14px;
+    margin-left: 10%;
+}
+.update-btn{
+    border:transparent;
+    color:black;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 14px;
+    margin-left: 10%;
+}
+.logout-btn{
+    border:transparent;
+    color:black;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 14px;
+    margin-left: 10%;
+}
